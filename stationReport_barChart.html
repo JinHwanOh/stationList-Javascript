@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>jQuery Mobile</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<link rel="stylesheet" href="_css/jquery.mobile.css">
+	<link rel="stylesheet" href="_css/mystyle.css">
+	
+	<script src="_js/jquery.js"></script>
+	<script src="_js/jquery.mobile.js"></script>
+	<script src="_js/Chart.js"></script>				<!-- added -->
+	<script src="_js/script_barChart.js"></script>
+	
+	<style>
+		.legendformat {
+			font-size: 1.25em;
+			color: black;
+		}
+	</style>
+</head>
+<body>
+	<div data-role="page" id="barChart" data-theme="a">
+		<header data-role="header" data-theme="b">
+			<h1 class="ui-title ui-shadow">Available Docks/Available Bikes per station</h1>
+		</header>
+
+		<section class="ui-content" role="main">
+			<section>
+				<canvas id="barCanvas" style='width:100%; height:500px'></canvas>	
+				<section id="legend"></section>		
+			</section>
+		</section>
+
+		<div data-theme="b" data-role="footer">
+            <h1>2015</h1>
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+					<li><a href="stationsList.html">Stations List</a></li>
+					<li><a href="individualStationReport.html">Stations Details</a></li>
+                    <li><a href="maps.html">Maps</a></li>
+                    <li><a href="pieChart.html">Total Docks</a></li>
+                    <li><a href="students.html">About Us</a></li>
+                </ul>
+            </div>
+		</div>
+	</div>
+</body>
+</html>

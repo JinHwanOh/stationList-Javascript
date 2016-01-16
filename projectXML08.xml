@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<bikeshare>
+	<stationBeanList>
+		<id>5</id>
+		<stationName city="Toronto">Church St / Alexander St</stationName>
+		<availableDocks>7</availableDocks>
+		<totalDocks>15</totalDocks>
+		<latitude>43.6636</latitude>
+		<longitude>-79.3806</longitude>
+		<statusValue>In Service</statusValue>
+		<statusKey>1</statusKey>
+		<availableBikes>8</availableBikes>
+		<stationImg>Church.St_Alexander.St.png</stationImg>
+	</stationBeanList>
+	<stationBeanList>
+		<id>8</id>
+		<stationName city="Toronto">Madison Ave / Bloor St W</stationName>
+		<availableDocks>11</availableDocks>
+		<totalDocks>14</totalDocks>
+		<latitude>43.667158</latitude>
+		<longitude>-79.402761</longitude>
+		<statusValue>In Service</statusValue>
+		<statusKey>1</statusKey>
+		<availableBikes>3</availableBikes>
+		<stationImg>Madison.Ave_Bloor.St.W.png</stationImg>
+	</stationBeanList>
+	<stationBeanList>
+		<id>9</id>
+		<stationName city="Toronto">King St W / Spadina Ave</stationName>
+		<availableDocks>9</availableDocks>
+		<totalDocks>18</totalDocks>
+		<latitude>43.645323</latitude>
+		<longitude>-79.395003</longitude>
+		<statusValue>In Service</statusValue>
+		<statusKey>1</statusKey>
+		<availableBikes>9</availableBikes>
+		<stationImg>King.St.W_Spadina.Ave.png</stationImg>
+	</stationBeanList>
+	<stationBeanList>
+		<id>12</id>
+		<stationName city="Toronto">Ferry Ramp / Queens Quay W</stationName>
+		<availableDocks>15</availableDocks>
+		<totalDocks>22</totalDocks>
+		<latitude>43.640823</latitude>
+		<longitude>-79.376265</longitude>
+		<statusValue>In Service</statusValue>
+		<statusKey>1</statusKey>
+		<availableBikes>9</availableBikes>
+		<stationImg>Ferry.Ram_Queens.Quay.W.png</stationImg>
+	</stationBeanList>
+	<stationBeanList>
+		<id>13</id>
+		<stationName city="Toronto">Temperance St / Yonge St</stationName>
+		<availableDocks>14</availableDocks>
+		<totalDocks>15</totalDocks>
+		<latitude>43.650855</latitude>
+		<longitude>-79.379492</longitude>
+		<statusValue>In Service</statusValue>
+		<statusKey>1</statusKey>
+		<availableBikes>1</availableBikes>
+		<stationImg>Temperance.St_Yonge.St.png</stationImg>
+	</stationBeanList>
+	<stationBeanList>
+		<id>17</id>
+		<stationName city="Toronto">Ted Rogers Way </stationName>
+		<availableDocks>20</availableDocks>
+		<totalDocks>27</totalDocks>
+		<latitude>43.671293</latitude>
+		<longitude>-79.380471</longitude>
+		<statusValue>In Service</statusValue>
+		<statusKey>1</statusKey>
+		<availableBikes>7</availableBikes>
+		<stationImg>Ted.Rogers.Way.png</stationImg>
+	</stationBeanList>
+	<stationBeanList>
+		<id>19</id>
+		<stationName city="Toronto">Beverly St / Dundas St W</stationName>
+		<availableDocks>18</availableDocks>
+		<totalDocks>27</totalDocks>
+		<latitude>43.652823</latitude>
+		<longitude>-79.393388</longitude>
+		<statusValue>In Service</statusValue>
+		<statusKey>1</statusKey>
+		<availableBikes>9</availableBikes>
+		<stationImg>Beverly.St._Dundas.St.W.png</stationImg>
+	</stationBeanList>
+	<stationBeanList>
+		<id>50</id>
+		<stationName city="Toronto">Bremner Blvd / Rees St</stationName>
+		<availableDocks>11</availableDocks>
+		<totalDocks>15</totalDocks>
+		<latitude>43.641529</latitude>
+		<longitude>-79.386741</longitude>
+		<statusValue>In Service</statusValue>
+		<statusKey>1</statusKey>
+		<availableBikes>4</availableBikes>
+		<stationImg>Bremner.Blvd_Rees.St.png</stationImg>
+	</stationBeanList>
+	<stationBeanList>
+		<id>75</id>
+		<stationName city="Toronto">Wellington St W / Bay St</stationName>
+		<availableDocks>13</availableDocks>
+		<totalDocks>24</totalDocks>
+		<latitude>43.647331</latitude>
+		<longitude>-79.379673</longitude>
+		<statusValue>In Service</statusValue>
+		<statusKey>1</statusKey>
+		<availableBikes>11</availableBikes>
+		<stationImg>Wellington.St W_Bay.St.png</stationImg>
+	</stationBeanList>
+	<stationBeanList>
+		<id>38</id>
+		<stationName city="Toronto">Willcocks St / St. George St</stationName>
+		<availableDocks>12</availableDocks>
+		<totalDocks>17</totalDocks>
+		<latitude>43.662237</latitude>
+		<longitude>-79.397716</longitude>
+		<statusValue>In Service</statusValue>
+		<statusKey>1</statusKey>
+		<availableBikes>5</availableBikes>
+		<stationImg>Willcocks.St_St.George St.png</stationImg>
+	</stationBeanList>
+	<stationBeanList>
+		<id>77</id>
+		<stationName city="Toronto">College St / Huron St</stationName>
+		<availableDocks>4</availableDocks>
+		<totalDocks>11</totalDocks>
+		<latitude>43.658148</latitude>
+		<longitude>-79.398167</longitude>
+		<statusValue>In Service</statusValue>
+		<statusKey>1</statusKey>
+		<availableBikes>7</availableBikes>
+		<stationImg>College.St_Huron.St.png</stationImg>
+	</stationBeanList>
+	<stationBeanList>
+		<id>48</id>
+		<stationName city="Toronto">Gerrard St E / Church St</stationName>
+		<availableDocks>7</availableDocks>
+		<totalDocks>14</totalDocks>
+		<latitude>43.659778</latitude>
+		<longitude>-79.37978</longitude>
+		<statusValue>In Service</statusValue>
+		<statusKey>1</statusKey>
+		<availableBikes>7</availableBikes>
+		<stationImg>Gerrard.St.E_Church.St.png</stationImg>
+	</stationBeanList>
+	<stationBeanList>
+		<id>61</id>
+		<stationName city="Toronto">Bay St / Albert St</stationName>
+		<availableDocks>16</availableDocks>
+		<totalDocks>23</totalDocks>
+		<latitude>43.653264</latitude>
+		<longitude>-79.382458</longitude>
+		<statusValue>In Service</statusValue>
+		<statusKey>1</statusKey>
+		<availableBikes>7</availableBikes>
+		<stationImg>Bay.St_Albert.St.png</stationImg>
+	</stationBeanList>
+	<stationBeanList>
+		<id>62</id>
+		<stationName city="Toronto">Niagara St. / Richmond St. W.</stationName>
+		<availableDocks>7</availableDocks>
+		<totalDocks>14</totalDocks>
+		<latitude>43.64534</latitude>
+		<longitude>-79.409597</longitude>
+		<statusValue>In Service</statusValue>
+		<statusKey>1</statusKey>
+		<availableBikes>7</availableBikes>
+		<stationImg>Niagara.St._Richmond.St.W..png</stationImg>
+	</stationBeanList>
+	<stationBeanList>
+		<id>47</id>
+		<stationName city="Brampton">Derry Rd / McLaughlin Rd.</stationName>
+		<availableDocks>14</availableDocks>
+		<totalDocks>19</totalDocks>
+		<latitude>43.636432</latitude>
+		<longitude>-79.717285</longitude>
+		<statusValue>In Service</statusValue>
+		<statusKey>1</statusKey>
+		<availableBikes>5</availableBikes>
+		<stationImg>Derry.Rd_McLaughlin.Rd..png</stationImg>
+	</stationBeanList>
+	<stationBeanList>
+		<id>31</id>
+		<stationName city="Oakville">Oakville GO Station</stationName>
+		<availableDocks>9</availableDocks>
+		<totalDocks>12</totalDocks>
+		<latitude>43.456146</latitude>
+		<longitude>-79.681667</longitude>
+		<statusValue>In Service</statusValue>
+		<statusKey>1</statusKey>
+		<availableBikes>3</availableBikes>
+		<stationImg>Oakville.GO.Station.png</stationImg>
+	</stationBeanList>
+</bikeshare>

@@ -1,0 +1,21 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2.ui-bar {
+    text-align:center;
+    color:#ff770d;
+}
+
+[data-role="list-divider"] {
+    color:#ff770d;
+}
+
+[data-role="header"] > h1 {
+    text-align: left;
+}
+
+#map_canvas {
+    min-width: 300px;
+    min-height: 300px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mobile Web Group Project 2015</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<link rel="stylesheet" href="_css/jquery.mobile.css"/>
+	<link rel="stylesheet" href="_css/mystyle.css"/>
+	
+	<script src="_js/jquery.js"></script>
+    <script src="_js/jquery.mobile.js"></script>
+	<script src="_js/script_stationList.js"></script>
+	<script src="_js/Chart.js"></script>
+    <script src="_js/maps.js"></script>
+	<script src="_js/mychartscript.js"></script>
+	<script src="_js/script_individualStation.js"></script>
+	<script src="_js/studentImage.js"></script>
+	<script src="_js/script_barChart.js"></script>
+    <script async defer type="text/javascript" src="http://maps.google.com/maps/api/js?v=3&sensor=false&language=en"></script>
+</head>
+<body>
+
+    <div data-role="page" data-theme="a" id="individualStationList">
+		<header data-role="header" data-theme="b">
+			<h1 class="ui-title ui-shadow">Stations</h1>
+		</header>
+
+		<section class="ui-content" role="main" id="stationsList">
+				
+		</section>
+		<div data-theme="b" data-role="footer" data-position="fixed">
+            <h1>2015</h1>
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+					<li><a href="stationsList.html">Stations List</a></li>
+                    <li><a href="maps.html">Maps</a></li>
+                    <li><a href="pieChart.html">Total Docks</a></li>
+					<li><a href="stationReport_barChart.html">Available Docks/Bikes</a></li>
+                    <li><a href="students.html">About Us</a></li>
+                </ul>
+            </div>
+		</div>
+	</div> <!-- id=stationList -->
+	
+	<div data-role="page"  data-theme="a" id="stationInfoPage">
+		<header data-role="header">
+			<h1 class="ui-title ui-shadow">Station Detailed Information</h1>
+		</header>
+
+		<div class="ui-content" role="main" id="stationInfo">
+		</div>
+		
+		<div data-theme="b" data-role="footer" data-position="fixed">
+            <h1>2015</h1>
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+					<li><a href="stationsList.html">Stations List</a></li>
+                    <li><a href="maps.html">Maps</a></li>
+                    <li><a href="pieChart.html">Total Docks</a></li>
+					<li><a href="stationReport_barChart.html">Available Docks/Bikes</a></li>
+                    <li><a href="students.html">About Us</a></li>
+                </ul>
+            </div>
+		</div>
+	</div>
+</body>
+</html>

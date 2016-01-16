@@ -1,0 +1,25 @@
+{
+"studentInfo": 
+{
+	"students": [ 
+	{
+		"studentName" : "Juan Mendiola",
+		"studentLogin" : "mendiola",
+		"studentNumber" : "010305332",
+		"studentImage" : "juan.jpg"
+	},
+	{
+		"studentName" : "Jin Oh",
+		"studentLogin" : "ohjinh",
+		"studentNumber" : "991381235",
+		"studentImage" : "jin.jpg"
+	},
+	{
+		"studentName" : "Diwash Pokharel",
+		"studentLogin" : "pokhardi",
+		"studentNumber" : "991238286",
+		"studentImage" : "diwash.jpg"
+	}
+	]
+}
+}

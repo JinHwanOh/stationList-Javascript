@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Mobile Web Group Project 2015</title>
+
+    <link rel="stylesheet" href="_css/jquery.mobile.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="_css/mystyle.css">
+
+    <script src="_js/jquery.js"></script>
+    <script src="_js/jquery.mobile.js"></script>
+	<script src="_js/script_stationList.js"></script>
+	<script src="_js/Chart.js"></script>
+    <script src="_js/maps.js"></script>
+	<script src="_js/mychartscript.js"></script>
+	<script src="_js/script_individualStation.js"></script>
+	<script src="_js/studentImage.js"></script>
+	<script src="_js/script_barChart.js"></script>
+    <script async defer type="text/javascript" src="http://maps.google.com/maps/api/js?v=3&sensor=false&language=en"></script>
+</head>
+<body>
+    <div data-role="page" id="index">
+        <div data-role="header" data-theme="b">
+            <h1>Mobile Web</h1>
+
+        </div><!--header-->
+
+        <div data-role="main" class="ui-content">
+            <h2 class="ui-bar ui-bar-a ui-corner-all">Mobile Web Group Project 2015</h2>
+
+            <div class="ui-body ui-body-a ui-corner-all">
+                <p>Welcome to our Mobile Web Group project! This website can be viewed via desktop, but was made with the mobile user in mind as it uses the JQuery Mobile framework extensively. This website displays
+specific information about bike stations pulled from an XML file. With this information we have
+derived a station list, detailed information on each station (name, city, etc), a station map using
+the Google Maps API, the total docks per station, the available docks at the stations and number of bikes per station. All information used is dynamically extracted from the XML file.</p>
+            </div>
+
+                <ul data-role="listview" data-inset="true" data-theme="a" data-divider-theme="a">
+                    <li data-role="list-divider">STATIONS</li>
+                    <li data-icon="false"><a href="stationsList.html"><img src="_images/list.png" alt="list" class="ui-li-icon">Station List</a></li>
+                    <li data-icon="false"><a href="individualStationReport.html"><img src="_images/info.png" alt="info" class="ui-li-icon">Station Info</a></li>
+
+                    <li data-role="list-divider">MAPS</li>
+                    <li data-icon="false"><a href="maps.html"><img src="_images/map.png" alt="map" class="ui-li-icon">Station Map</a></li>
+
+                    <li data-role="list-divider">REPORTS</li>
+                    <li data-icon="false"><a href="pieChart.html"><img src="_images/report1.png" alt="report1" class="ui-li-icon">Total Docks per Station</a></li>
+                    <li data-icon="false"><a href="stationReport_barChart.html"><img src="_images/report2.png" alt="report2" class="ui-li-icon">Available Docks/Bikes per Station</a></li>
+
+                    <li data-role="list-divider">ABOUT US</li>
+                    <li data-icon="false"><a href="students.html"><img src="_images/about.png" alt="about" class="ui-li-icon">Team Page</a></li>
+                </ul><!--list-->
+
+        </div><!--content-->
+
+        <div data-theme="b" data-role="footer">
+            <h1>2015</h1>
+            <div data-role="navbar">
+                <ul>
+                    
+					<li><a href="stationsList.html">Stations List</a></li>
+					<li><a href="individualStationReport.html">Stations Details</a></li>
+                    <li><a href="maps.html">Maps</a></li>
+                    <li><a href="pieChart.html">Total Docks</a></li>
+					<li><a href="stationReport_barChart.html">Available Docks/Bikes</a></li>
+                    <li><a href="students.html">About Us</a></li>
+                </ul>
+            </div>
+		</div>
+
+    </div><!--page-->
+
+</body>
+</html>
